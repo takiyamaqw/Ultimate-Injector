@@ -1,8 +1,7 @@
 #include "main.h"
 
 ImFont* pFontAwesomeSolid = nullptr, *pFontAwesomeReg = nullptr, * pFontAwesomeBrands = nullptr, * pFontArial = nullptr;
-bool debug_cmd;
-bool gtaproc;
+
 LRESULT CALLBACK WindowProcess(HWND window, UINT message, WPARAM wideParameter, LPARAM longParameter)
 {
 	if (ImGui_ImplWin32_WndProcHandler(window, message, wideParameter, longParameter))
